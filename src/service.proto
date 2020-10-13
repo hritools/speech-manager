@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Text {
+    string text = 1;
+}
+
+message TTSResponse {}
+
+service TextToSpeech {
+    rpc speak (Text) returns (TTSResponse) {}
+}

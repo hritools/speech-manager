@@ -1,0 +1,8 @@
+*.py[cod]
+
+.idea/
+.vscode/
+
+src/.env
+src/tmp/
+src/celerybeat-schedule
